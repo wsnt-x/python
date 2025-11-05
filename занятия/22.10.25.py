@@ -19,27 +19,27 @@
 # for i in b:
 #     print(i)
 #2
-# b="1234567890"
-# counter=0
-# while True:
-#     a=input("введите пароль: ")
-#     if counter==2:
-#         print("попробуй в другой раз")
-#         break
-#     counter+=1
-#     if len(a)<8:
-#         print("Пароль неверный, нужно больше 8 символов")
-#     else:
-#         k=False#есть ли в пароле числа?
-#         for i in b:
-#             print(i)
-#             if i in a:
-#                 k=True
-#                 break
-#             if k:
-#                 print("Пароль верный")
-#             else:
-#                 print("Пароль неверный")
+b="1234567890"
+counter=0
+while True:
+    a=input("введите пароль: ")
+    if counter==2:
+        print("попробуй в другой раз")
+        break
+    counter+=1
+    if len(a)<8:
+        print("Пароль неверный, нужно больше 8 символов")
+    else:
+        k=False#есть ли в пароле числа?
+        for i in b:
+            print(i)
+            if i in a:
+                k=True
+                break
+            if k:
+                print("Пароль верный")
+            else:
+                print("Пароль неверный")
 
 
 
