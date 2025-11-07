@@ -34,4 +34,4 @@ for i in a:
     if i<minim:
         minim=i
         count=count+1
-print(count-1)
+print(count-1)#
