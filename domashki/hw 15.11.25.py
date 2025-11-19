@@ -6,13 +6,13 @@
 # Выводится количество повторяющихся
 # элементов (разность между длиной исходного
 # списка и множества).
-# from random import *
-# a=[]
-# for i in range(7):
-#     a.append(randint(1,7))
-# print(a)
-# print(set(a))
-# print(len(a)-len(set(a)))
+from random import *
+a=[]
+for i in range(7):
+    a.append(randint(1,7))
+print(a)
+print(set(a))
+print(len(a)-len(set(a)))
 # 2. Создайте программу для работы с множеством:
 # Начните с пустого множества my_set.
 # В цикле 5 раз запрашивайте у пользователя число.
@@ -22,15 +22,15 @@
 # множество и количество его элементов.
 # Найдите минимальное и максимальное значения в
 # множестве.
-# my_set=set()
-# for i in range(5):
-#     x=int(input())
-#     my_set.add(x)
-# print(my_set)
-# print(len(my_set))
-# my_set=list(my_set)
-# print("max:",max(my_set))
-# print("min:",min(my_set))
+my_set=set()
+for i in range(5):
+    x=int(input())
+    my_set.add(x)
+print(my_set)
+print(len(my_set))
+my_set=list(my_set)
+print("max:",max(my_set))
+print("min:",min(my_set))
 # 3.
 # У вас есть множество numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9,
 # 10}. Напишите программу, которая:
@@ -38,16 +38,16 @@
 # используя метод discard() в цикле.
 # Добавляет квадраты всех оставшихся чисел.
 # Выводит итоговое множество
-# numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9,10}
-# for i in range(len(numbers)):
-#     if i%2==0:
-#         numbers.discard(i)
-# for i in range(len(numbers)):
-#     if i%2==0:
-#         for i in range(len(numbers)):
-#             if i % 2 == 0:
-#                 numbers.add(i**2)
-# print(numbers)
+numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9,10}
+for i in range(len(numbers)):
+    if i%2==0:
+        numbers.discard(i)
+for i in range(len(numbers)):
+    if i%2==0:
+        for i in range(len(numbers)):
+            if i % 2 == 0:
+                numbers.add(i**2)
+print(numbers)
 # 4.
 # У вас есть три множества участников книжного клуба, читающих
 # разные жанры книг:
@@ -65,8 +65,8 @@ detective_readers = {"Катя", "Лев", "Никита", "Ольга"}
 sci_fi_readers = {"Лев", "Марина", "Никита", "Павел"}
 print(fantasy_readers&detective_readers&sci_fi_readers)
 print(fantasy_readers - detective_readers - sci_fi_readers)
-print((fantasy_readers & detective_readers) |
-    (fantasy_readers & sci_fi_readers) |
-    (detective_readers & sci_fi_readers))
+print(((fantasy_readers & detective_readers)-sci_fi_readers ) |
+    ((fantasy_readers & sci_fi_readers)-detective_readers) |
+    ((detective_readers & sci_fi_readers)-fantasy_readers))
 
 
