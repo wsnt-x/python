@@ -61,3 +61,4 @@ for i in b:
             break
 print(b)
 print(s)
+#доделать
