@@ -48,17 +48,17 @@
 # print(s)
 
 #87
-a=input().replace(" ","")
-b={}
-for i in a:
-    b[i]=a.count(i)
-s=[["",0]*3]
-for i in b:
-    for j in range(len(s)):
-        if s[j][1]<b[i]:
-            s[j][0]=i
-            s[j][1]=b[i]
-            break
-print(b)
-print(s)
-#доделать
+# a=input().replace(" ","")
+# b={}
+# for i in a:
+#     b[i]=a.count(i)
+# s=[["",0]*3]
+# for i in range(3):
+#     for i in b:
+#         for j in range(len(s)):
+#             if s[j][1]<b[i]:
+#                 s[j][0]=i
+#                 s[j][1]=b[i]
+#                 break
+# print(b)
+# print(s)
