@@ -18,13 +18,16 @@
 # прочитайте файл в режиме 'r' с помощью readlines() и выведите пары.
 # from random import randint
 # d = {"A": 10, "B": 20, "C": 30}
-# for key in d:
-#     d[key] = randint(100, 999)
-# with open("hw2.txt", "w") as f:
-#     for item in d:
-#         f.write(f"{item} : {d[key]}\n")
-# with open("hw2.txt", "r") as f:
-#     print(f.readlines())
+# c={}
+# c.update({randint(100,999): d["A"],
+#           randint(100,999): d["B"],
+#            randint(100,999): d["C"]})
+# with open("hw2.txt", "w") as file:
+#     for key, value in c.items():
+#         file.write(str(key) + ":" + str(value) + "\n")
+# with open("hw2.txt", "r") as file:
+#     for item in file.readlines():
+#         print(item)
 # 3. Создайте файл в режиме 'w' с 50 строками случайных
 # чисел от 1 до 100. В режиме 'a' добавьте 20 строк. Прочитайте
 # все в режиме 'r' с readlines() и выведите сумму всех чисел.
