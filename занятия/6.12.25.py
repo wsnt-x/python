@@ -54,15 +54,14 @@
 
 #9
 with open("903.txt", "r") as f:
+    counter=0
     for line in f:
         numbers=line.split("\t")
-        maxim=0
-        minim=9999999
+        s=[]
         for i in numbers:
-            if int(i)>maxim:
-                maxim=int(i)
-            if int(i)<minim:
-                minim=int(i)
-
-
-
+            s.append(int(i))
+        s=sorted(s)
+        sum_rst=sum(s[1:-1]) >= (s[0]+s[-1])
+        if sum_rst:
+            counter+=1
+    print(counter)
