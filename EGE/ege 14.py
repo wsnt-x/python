@@ -82,8 +82,21 @@
 # int(n,b)# переводит число n из сс с основанием b в сс с основанием 10
 # она работает только для сс от 2 до 36 включительно
 
-from string import *
-for x in printable[:37]:
-    n=int(f"98{x}31",37)+int(f"1{x}924",37)
-    if n%21==0:
-        print(x,n//21)
+# from string import *
+# for x in printable[:37]:
+#     n=int(f"98{x}31",37)+int(f"1{x}924",37)
+#     if n%21==0:
+#         print(x,n//21)
+
+
+n1 = 'C59xBA98F'
+n2 = 'E3x5DA9C6'
+
+s1 = sum(int(z, 36) for z in n1)
+s2 = sum(int(z, 36) for z in n2)
+
+for x in range(36, -1, -1):
+    if (s1 + x) * (s2 + x) % 36 == 0:
+        print(2 * 37**2 + x * 37 + 1)
+        break
+
