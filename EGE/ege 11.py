@@ -23,10 +23,22 @@
 # extra_all = (per_user - id_bytes)
 # print(extra_all)
 
-from math import *
-for i in range(1,1000):
-    bit=ceil(log2(i))
-    idn=ceil(261*bit/8)
-    if 252500 * idn >31*1024*1024:
-        print(i)
-        break
+
+# from math import *
+# for i in range(1,1000):
+#     bit=ceil(log2(i))
+#     idn=ceil(261*bit/8)
+#     if 252500 * idn >31*1024*1024:
+#         print(i)
+#         break
+
+
+# #мощность алфавита
+# from math import *
+# for x in range(1,10000):
+#     i=ceil(log2(x))
+#     idn=ceil(80*i/8)
+#     if 1200*idn<=150*1024:
+#         print(x)
+
+
