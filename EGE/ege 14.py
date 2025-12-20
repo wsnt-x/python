@@ -1,4 +1,4 @@
-# эге 14
+# егэ 14
 # перевод из 10 сс
 # def f(n):
 #     a=[] #список цифр числа в новой сс
@@ -89,14 +89,20 @@
 #         print(x,n//21)
 
 
-n1 = 'C59xBA98F'
-n2 = 'E3x5DA9C6'
+# n1 = 'C59xBA98F'
+# n2 = 'E3x5DA9C6'
+#
+# s1 = sum(int(z, 36) for z in n1)
+# s2 = sum(int(z, 36) for z in n2)
+#
+# for x in range(36, -1, -1):
+#     if (s1 + x) * (s2 + x) % 36 == 0:
+#         print(2 * 37**2 + x * 37 + 1)
+#         break
 
-s1 = sum(int(z, 36) for z in n1)
-s2 = sum(int(z, 36) for z in n2)
-
-for x in range(36, -1, -1):
-    if (s1 + x) * (s2 + x) % 36 == 0:
-        print(2 * 37**2 + x * 37 + 1)
-        break
-
+from string import *
+for x in printable[:21]:
+    for y in printable[:21]:
+        n=int(f"12{y}{x}9",21)+int(f"36{y}99",21)
+        if n%18==0:
+            print(x,y,n//18)
