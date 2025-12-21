@@ -100,9 +100,11 @@
 #         print(2 * 37**2 + x * 37 + 1)
 #         break
 
-from string import *
-for x in printable[:21]:
-    for y in printable[:21]:
-        n=int(f"12{y}{x}9",21)+int(f"36{y}99",21)
-        if n%18==0:
-            print(x,y,n//18)
+# from string import *
+# for x in printable[:37]:
+#     for y in printable[:37]:
+#         n=int(f"12{y}{x}9",37)+int(f"36{y}99",37)
+#         if n%18==0:
+#             print(x,y,n//18)
+
+
