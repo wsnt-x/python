@@ -1,5 +1,5 @@
 #kr inf
-#10
+# #10
 # count = 0
 # with open("9 1.txt") as f:
 #     for line in f:
@@ -27,6 +27,7 @@
 #                 if s<m:
 #                     k+=1
 #                     print(k)
+
 
 #12
 # with open("9 1.txt", "r") as f:
@@ -90,7 +91,7 @@
 
 #18
 # from sys import *
-# for i in range(2,36):
+# for i in range(10,36):
 #     for x in range(i):
 #         for y in range(i):
 #             for z in range(i):
@@ -101,5 +102,5 @@
 #                     if s1+s2==s3:
 #                         print(x,y,z,w,"",i)
 #                         exit()
-# print(int("112",4))
+
 #22
