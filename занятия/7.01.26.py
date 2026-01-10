@@ -105,4 +105,3 @@ from os import PRIO_PGRP
 # discounts=[10,15,5,20]
 # for a,b in zip(prices,discounts):
 #     print(a-(a*(b/100)))
-
