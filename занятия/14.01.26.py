@@ -125,4 +125,4 @@ for line in data:
     pass
 # если оба условия выполняются
 # увеличиваем count на 1
-print(count)
+print(count)#
