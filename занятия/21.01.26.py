@@ -71,10 +71,10 @@
 # nums = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 # print(list(filter(is_simple, nums)))
 
-def my_map(func, iterable):
-    result = []
-    for item in iterable:
-        result.append(func(item))
-    return result
-nums = ["hello"]
-print(my_map(len, nums))
+# def my_map(func, iterable):
+#     result = []
+#     for item in iterable:
+#         result.append(func(item))
+#     return result
+# nums = ["hello"]
+# print(my_map(len, nums))
