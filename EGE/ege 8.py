@@ -59,11 +59,80 @@
 #                             count += 1
 # print(count)
 
-from itertools import *
-k=0
-for x in permutations("АПЕЛЬСИН",r=7):
-    s="".join(x)
-    for y in "ПЛСН": s=s.replace(y,"С")
-    if ("Ь" not in s) or ("СЬС" in s):
-        k+=1
-print(k)
+# from itertools import *
+# k=0
+# for x in permutations("АПЕЛЬСИН",r=7):
+#     s="".join(x)
+#     for y in "ПЛСН": s=s.replace(y,"С")
+#     if ("Ь" not in s) or ("СЬС" in s):
+#         k+=1
+# print(k)
+
+# from itertools import *
+# k = 0
+# for x in product( 'НИЧЬЯ', repeat = 7):
+#     s= ''. join(x)
+#     if s.count('И')+s.count('Я')==2:
+#         if ('ИИ' not in s) and ('ИЯ' not in s) and ('ЯИ' not in s) and ('ЯЯ' not in s):
+#             k+=1
+# print(k)
+
+# from itertools import *
+# k = 0
+# for x in permutations('ЗАПИСЬ'):
+#     s= ''. join(x)
+#     if s[0]!="Ь" and ("АЬ" not in s) and ("ИЬ" not in s):
+#         k+=1
+# print(k)
+
+# from itertools import *
+# k=0
+# for x in permutations("ВАЙФУ",r=4):
+#     s="".join(x)
+#     if s[0]!="Й" and ("ВФ" not in s) and ("ФВ" not in s):
+#         k+=1
+# print(k)
+
+
+# from itertools import *
+# k=0
+# for i in product("ПИКАЧУ",repeat=5):
+#     s="".join(i)
+#     if s.count("У")>=2:
+#         k+=1
+# print(k)
+
+# from itertools import *
+# k=0
+# for i in permutations("СОТКАПЛЗ",r=5):
+#     s="".join(i)
+#     if s[4]!="О" and s[4]!="А" and ("ЗЛО" not in s):
+#         k+=1
+# print(k)
+
+# from itertools import *
+#
+# k = 0
+# for i in product("012345678", repeat=7):
+#     s = "".join(i)
+#     if (s[0] not in "0246" and not (s[4] == s[5] == s[6])):
+#         k += 1
+# print(k)
+
+# from itertools import *
+# k=0
+# for i in permutations("ПРОБНИК",r=7):
+#     s="".join(i)
+#     s=s.replace("О","Г").replace("И","Г")
+#     if s[0] in "ПРБНК" and s[6] in "ПРБНК" and ("ГГ" not in s):
+#         k+=1
+# print(k)
+
+# from itertools import *
+# k=0
+# for i in set(permutations("КЛАБХАУС")):
+#     s="".join(i)
+#     if ("АА" not in s):
+#         k+=1
+# print(k)
+
