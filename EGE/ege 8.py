@@ -136,3 +136,15 @@
 #         k+=1
 # print(k)
 
+
+# from itertools import *
+# a = []
+# b = []
+# for i in product("КОНЕЦ", repeat=5):
+#     a.append("".join(i))
+# for i in product("ДРАКОН", repeat=5):
+#     b.append("".join(i))
+# A = set(a)
+# B = set(b)
+# res = A ^ B
+# print(len(res))
