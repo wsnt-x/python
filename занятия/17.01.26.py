@@ -46,13 +46,13 @@
 # sorted_nums=sorted(nums,key=lambda x: x%10)
 # print(sorted_nums)
 
-# students=[("John",98),("Michael",77),("Bob",92),("Robert",84),("Kevin",85)]
+# students=[("John",98),("Michael",77),("Bob",92.txt),("Robert",84),("Kevin",85)]
 # print(sorted(students, key= lambda x: x[1]))
 
 # dict_students = [
 # {"name": "John", "age": 25, "score": 98},
 # {"name": "Борис", "age": 10, "score": 77},
-# {"name": "Аркадий", "age": 30, "score": 92},
+# {"name": "Аркадий", "age": 30, "score": 92.txt},
 # {"name": "hellokitty", "age": 30, "score": 84},
 # {"name": "АркадийПаровозов", "age": 30, "score": 85}
 # ]

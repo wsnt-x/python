@@ -75,8 +75,18 @@
 
 
 
-
-
+# with open("92.txt") as f:
+#     k=0
+#     for line in f:
+#         a=list(map(int,line.split()))
+#         k+=1
+#         povt=[]
+#         nepovt=[]
+#         povt.append(x for x in a if a.count(x)==3)
+#         nepovt.append(x for x in a if a.count(x)==1)
+#         if len(set(povt))==1 and len(set(nepovt))==4:
+#             if sum(nepovt)>sum(povt):
+#                 print(k)
 
 
 

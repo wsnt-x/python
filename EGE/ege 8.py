@@ -260,3 +260,120 @@
 #     if s[0] not in "037" and s[0]!=s[1] and s[1]!=s[2] and s[2]!=s[3] and s[3]!=s[4] and s[4]!=s[5] and s[5]!=s[6]:
 #         k+=1
 # print(k)
+
+
+# from itertools import *
+# k=0
+# for i in product("WXYZ","ABC","ABC","ABC","ABC","WXYZ"):
+#     k=k+1
+# print(k)
+
+# from itertools import *
+# k=0
+# for i in product("01234567", repeat=5):
+#     s="".join(i)
+#     if int(s[0])%2==0 and s[4] not in "26" and s.count("7")<=2 and s[0] not in "0":
+#         k+=1
+# print(k)
+
+# from itertools import *
+# k=0
+# for i in product("ГЕПАРД",repeat=5):
+#     s="".join(i)
+#     if s.count("Г")==1 and s[0] not in "А" and s[4] not in "Е":
+#         k+=1
+# print(k)
+
+# from itertools import *
+# k=0
+# for i in product("АРБУЗ",repeat=6):
+#     s="".join(i)
+#     if s.count("А")==3 and ("ААА" not in s) and ("АА" in s):
+#         k+=1
+# print(k)
+
+# from itertools import *
+# k=0
+# for i in product("ПОЛИНА",repeat=8):
+#     s="".join(i)
+#     s=s.replace("П","Q").replace("Л","Q").replace("Н","Q")
+#     s = s.replace("О", "J").replace("И", "J").replace("А", "J")
+#     if s.count("Q")>s.count("J"):
+#         k+=1
+# print(k)
+
+# from itertools import *
+# k=0
+# for i in permutations("КАЛИЙ",r=5):
+#     s="".join(i)
+#     if s[0] not in "Й" and "ИА" not in s:
+#         k+=1
+# print(k)
+
+# from itertools import *
+# k=0
+# for i in permutations("КОМЕТА",r=6):
+#     s="".join(i)
+#     s=s.replace("К","R").replace("М","R").replace("Т","R")
+#     s = s.replace("О", "Q").replace("Е", "Q").replace("А", "Q")
+#     if "QQ" not in s and "RR" not in s:
+#         k+=1
+# print(k)
+
+from itertools import *
+# k=0
+# for i in set(permutations("ОДЕКОЛОН")):
+#     s="".join(i)
+#     if s[0]!=s[1] and s[1]!=s[2] and s[2]!=s[3] and s[3]!=s[4] and s[4]!=s[5] and s[5]!=s[6] and s[6]!=s[7]:
+#         k+=1
+# print(k)
+
+# from itertools import *
+# k=0
+# for i in set(permutations("СОРТИРОВКА")):
+#     s="".join(i)
+#     s = s.replace("С", "R").replace("Р", "R").replace("Т", "R").replace("В", "R").replace("К", "R")
+#     s = s.replace("О", "Q").replace("И", "Q").replace("А", "Q")
+#     if "QQQ" not in s and "RRR" not in s:
+#         k+=1
+# print(k)
+
+# from itertools import *
+# k=0
+# for i in permutations("01234567",r=7):
+#     s="".join(i)
+#     s=s.replace("0","Q").replace("2","Q").replace("4","Q").replace("6","Q")
+#     s=s.replace("1","R").replace("3","R").replace("5","R").replace("7","R")
+#     if "QQ" not in s and "RR" not in s and ''.join(i)[0]!="0":
+#         k+=1
+# print(k)
+
+# from itertools import *
+# k=0
+# for i in product("АВНРЬЯ",repeat=5):
+#     s="".join(i)
+#     k+=1
+#     if s[0]!="Я" and s.count("Ь")<=1 and "ЯЯ" not in s:
+#         print(k)
+
+
+# from itertools import *
+# k=0
+# for i in product("ИМНСУ",repeat=4):
+#     s="".join(i)
+#     k+=1
+#     s=s.replace("И","Q").replace("У","Q")
+#     s = s.replace("М", "R").replace("Н", "R").replace("С", "R")
+#     if s.count("R")>=s.count("Q"):
+#         print(k)
+#
+# from itertools import *
+# k=0
+# q=0
+# for i in product("ЕЛНОСЦ",repeat=6):
+#     s="".join(i)
+#     k=k+1
+#     if k%2==0 and s[0] not in "ЕО" and s.count("Ц")==2:
+#         q+=1
+# print(q)
+

@@ -31,7 +31,7 @@
 #
 #     {'name': 'Alice', 'group': 'A', 'score': 85},
 #
-#     {'name': 'Bob', 'group': 'B', 'score': 92},
+#     {'name': 'Bob', 'group': 'B', 'score': 92.txt},
 #
 #     {'name': 'Charlie', 'group': 'A', 'score': 78},
 #
