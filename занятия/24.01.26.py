@@ -137,23 +137,3 @@
 # print(a("ytho"))
 
 
-# Создайте функцию с замыканием make_stats_tracker(),
-# которая возвращает четыре функции: для добавления числа,
-# получения среднего значения, получения минимума и максимума.
-# Функция должна эффективно отслеживать все необходимые статистики.
-# from statistics import *
-# def make_stats_tracker():
-#     c=0
-#     def f1(x):
-#         nonlocal c
-#         c+=x
-#         return c
-#     return f1
-#     def f2(x):
-#         nonlocal c
-#         return mean(x)
-#     return f2
-#
-# a=make_stats_tracker()
-# print(a(5))
-# print(a(5))
