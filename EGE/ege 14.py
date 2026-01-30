@@ -108,3 +108,5 @@
 #             print(x,y,n//18)
 
 
+for i in range(1,123):
+    print(i)
