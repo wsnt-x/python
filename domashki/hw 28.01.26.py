@@ -5,8 +5,8 @@
 # переданное в параметре delay, пока возвращаемое значение не будет True,
 # при этом количество перезапусков не должно превышать значения, переданного
 # в параметре max_retries.
-# import time
-# def retry(max_retries, delay):
-#     def decorator(func):
-#         def wrapper(*args, **kwargs):
-#
+import time
+def retry(max_retries, delay):
+    def decorator(func):
+        def wrapper(*args, **kwargs):
+

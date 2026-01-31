@@ -81,16 +81,14 @@ from time import time
 def parent(func):
     def wrapper(*args, **kwargs):
         start = time()
-        a=func(*args)
+        a = func(*args, **kwargs)   # ← ВАЖНО
         print(time() - start, a)
         return a
     return wrapper
-
 @parent
-def test(tfunc,list_nums):
-    for i,num in enumerate(list_nums):
+def test(tfunc, list_nums):
+    for i, num in enumerate(list_nums):
         list_nums[i] = tfunc(num)
     return list_nums
-
-a=test(lambda x: x**3,[1,2,3])
+a = test(lambda x: x**3, [1, 2, 3])
 print(a)
