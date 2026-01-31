@@ -24,7 +24,7 @@
 #     return choice([True, False])
 # result = check()
 # print("Результат:",result)
-
-
+#
+#
 
 
