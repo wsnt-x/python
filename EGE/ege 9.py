@@ -17,7 +17,7 @@
 #         if cond1 or cond2:
 #             k += 1
 # print(k)
-
+from xml.dom.minidom import ProcessingInstruction
 
 # with open("9 1.txt","r") as f:
 #     k=0
@@ -87,6 +87,17 @@
 #             if sum(nepovt) > sum(povt):
 #                 print(k)
 #
+# k=0
+# with open("9_9832") as f:
+#     for i in f:
+#         k=k+1
+#         a=sorted(map(int,i.split()))
+#         p=[i for i in set(a) if a.count(i)==2]
+#         if a.count(max(a))==1 and len(p)==2 and len(set(a))==5:
+#             print(sum(a))
+#             break
+#
+
 
 
 
