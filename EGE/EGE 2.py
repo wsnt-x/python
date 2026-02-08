@@ -1,11 +1,11 @@
-# print("a b c d")
-# for a in range(2):
-#     for b in range(2):
-#         for c in range(2):
-#             for d in range(2):
-#                 f = ((a and b)==(not c)) and (b<=d)
-#                 if f:
-#                     print(a, b, c, d)
+# print("x y z w")
+# for x in range(2):
+#     for y in range(2):
+#         for z in range(2):
+#             for w in range(2):
+#                 f = w or (x<=y) and ((not z)<=x)
+#                 if not f:
+#                     print(x,y,z,w)
 
 # from itertools import *
 # def f(x,y,z,w):
@@ -49,12 +49,13 @@
 
 # from itertools import *
 # def f(x,y,z,w):
-#     return (z<=w) and y and (not x)
+#     return (w or y) and (x<=(not z)) and (not w)
 # for a,b,c,d,e in product([0,1],repeat=5):
-#     table=((0,1,a,0,1),
-#            (b,0,c,d,1),
-#            (0,1,1,e,0))
+#     table=((a,0,b,0,1),
+#            (1,c,d,e,1),
+#            (1,1,0,0,1))
 #     if len(table)==len(set(table)):
 #         for p in permutations("xyzw",r=4):
 #             if all(f(**dict(zip(p,line)))==line[-1] for line in table):
 #                 print(*p)
+
