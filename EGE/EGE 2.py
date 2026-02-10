@@ -3,7 +3,7 @@
 #     for y in range(2):
 #         for z in range(2):
 #             for w in range(2):
-#                 f = w or (x<=y) and ((not z)<=x)
+#                 f = (y<=(x or z)) and (z<=y)
 #                 if not f:
 #                     print(x,y,z,w)
 
@@ -59,3 +59,28 @@
 #             if all(f(**dict(zip(p,line)))==line[-1] for line in table):
 #                 print(*p)
 
+
+# from itertools import *
+# def f(x,y,z,w):
+#     return not((((not w)<=(not y))<=(not z))<=x)
+# for a,b,c,d,e in product([0,1],repeat=5):
+#     table=((a,b,1,0,1),
+#            (c,1,d,1,1),
+#            (0,1,e,0,0))
+#     if len(table)==len(set(table)):
+#         for p in permutations("xyzw",r=4):
+#             if all(f(**dict(zip(p,line)))==line[-1] for line in table):
+#                 print(*p)
+
+
+# from itertools import *
+# def f(x,y,w,z):
+#     return (z<=(not(y<=x))) or w
+# for a1,a2,a3,a4 in product([0,1], repeat=4):
+#     table = [(1,a1,1,a2),
+#              (0,1,a3,0),
+#              (a4,1,1,0)]
+#     if len(set(table))==len(table):
+#         for p in permutations('xywz'):
+#             if [f(**dict(zip(p,r))) for r in table]==[1,1,1]:
+#                 print(*p)
