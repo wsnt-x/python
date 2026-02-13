@@ -98,10 +98,20 @@ from xml.dom.minidom import ProcessingInstruction
 #             break
 #
 
+# k=0
+# with open("9123") as f:
+#     for line in f:
+#         a=list(map(int,line.split()))
+#         if len(set(a))==4:
+#             k+=1
+# print(k)
 
-
-
-
-
-
-
+# k=0
+# with open("912") as f:
+#     for i in f:
+#         a=sorted(list(map(int, i.split())))
+#         if 2*(a[-1]+a[-2])>3*(a[0]+a[1]+a[2]):
+#             q=[x for x in a if x%10==5]
+#             if len(q)>=2:
+#                 k+=1
+# print(k)

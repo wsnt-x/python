@@ -41,4 +41,18 @@
 #     if 1200*idn<=150*1024:
 #         print(x)
 
+# from math import *
+# a=25+487
+# i=ceil(log2(a))
+# for ln in range(1,9999):
+#     idn=ceil(ln*i/8)
+#     if 345*idn>70*2**10:
+#         print(ln)
+#         break
 
+# from math import *
+# ln=15
+# a=10+11*2
+# i=ceil(log2(a))
+# idn=ceil(ln*i/8)
+# print(idn*30)

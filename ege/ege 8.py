@@ -377,3 +377,28 @@ from itertools import *
 #         q+=1
 # print(q)
 
+# from itertools import *
+# a0="2468"
+# a1="1357"
+# k=0
+# for i in product(a0,a1,a0,a1,a0,a1,a0,a1,a0):
+#     s="".join(i)
+#     if all(s.count(x)<=3 for x in s):
+#         k+=1
+# print(k*2)#!! *2
+#
+# from itertools import *
+# k = 0
+# a0 = "02468A"
+# a1 = "13579B"
+# for i in product(a0, a1, a0, a1, a0, a1, a0):
+#     s = "".join(i)
+#     if s[0] != "0" and s.count("B") == 2:
+#         k += 1
+# for i in product(a1, a0, a1, a0, a1, a0, a1):
+#     s = "".join(i)
+#     if s.count("B") == 2:
+#         k += 1
+# print(k)
+
+

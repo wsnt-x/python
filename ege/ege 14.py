@@ -108,5 +108,18 @@
 #             print(x,y,n//18)
 
 
-for i in range(1,123):
-    print(i)
+# b=[]
+# for a in range(0,55):
+#     n1=33*55**0+34*55**1+a*55**2+35*55**3
+#     n2=34*55**0+a*55**1+33*55**2+2*55**3
+#     n=n1-n2
+#     if n%29==0:
+#         b.append((a,n))
+# print(abs(b[0][1]-b[1][1]))
+
+# a=2**103+4**98-8**20
+# b=[]
+# while a>0:
+#     b.append(a%8)
+#     a=a//8
+# print(b.count(7))
