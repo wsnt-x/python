@@ -56,3 +56,10 @@
 # i=ceil(log2(a))
 # idn=ceil(ln*i/8)
 # print(idn*30)
+
+# from math import *
+# ln=115
+# a=1030
+# i=ceil(log2(a))
+# idn=ceil(ln*i/8)
+# print(idn*16384/1024)

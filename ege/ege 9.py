@@ -115,3 +115,16 @@ from xml.dom.minidom import ProcessingInstruction
 #             if len(q)>=2:
 #                 k+=1
 # print(k)
+
+# k=0
+# with open("098") as f:
+#     for i in f:
+#         k+=1
+#         a=list(map(int,i.split()))
+#         povt=[i for i in set(a) if a.count(i)==2]
+#         nepovt=[i for i in set(a) if a.count(i)==1]
+#         nechet=[i for i in a if i%2!=0]
+#         if len(povt)==2 and len(nepovt)==3:
+#             if sum(povt)*2<=sum(nechet):
+#                 print(sum(a))
+#                 break

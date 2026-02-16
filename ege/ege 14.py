@@ -123,3 +123,15 @@
 #     b.append(a%8)
 #     a=a//8
 # print(b.count(7))
+
+
+# for x in range(1,3000):
+#     a=9**150+9**30-x
+#     orig=a
+#     b=[]
+#     while a>0:
+#         b.append(a%9)
+#         a=a//9
+#     if b.count(0)==122:
+#         print(x)
+#         break
