@@ -128,3 +128,22 @@ from xml.dom.minidom import ProcessingInstruction
 #             if sum(povt)*2<=sum(nechet):
 #                 print(sum(a))
 #                 break
+
+# k=0
+# with open("890") as f:
+#     for i in f:
+#         s=list(map(int,i.split()))
+#         if (s[0]*s[1]>0 and s[2]*s[3]<=0) or (s[0]*s[1]<=0 and s[2]*s[3]>0):
+#             k+=1
+# print(k)
+
+# k=0
+# with open("442") as f:
+#     for i in f:
+#         k+=1
+#         a=list(map(int,i.split()))
+#         povt = [i for i in set(a) if a.count(i) == 2]
+#         nepovt=[i for i in set(a) if a.count(i)==1]
+#         if len(povt)==2 and len(nepovt)==2:
+#             if sum(nepovt)<=sum(povt):
+#                 print(sum(a))

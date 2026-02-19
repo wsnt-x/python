@@ -135,3 +135,22 @@
 #     if b.count(0)==122:
 #         print(x)
 #         break
+
+# for p in range(5,37):
+#     for q in range(6,37):
+#         l=2*p**2+3*p**1+4
+#         r=3*q**2+4*q**1+5
+#         if l==r:
+#             print(l)
+#             break
+
+# a=5*512**1000+256**1001-128**1002+64**1003-7*32**1004-5120
+# b=[]
+# while a>0:
+#     b.append(a%32)
+#     a=a//32
+# k=0
+# for i in b:
+#     if i<=9:
+#         k=k+1
+# print(k)

@@ -63,3 +63,20 @@
 # i=ceil(log2(a))
 # idn=ceil(ln*i/8)
 # print(idn*16384/1024)
+
+# from math import *
+# ln=196
+# a=10+1550
+# i=ceil(log2(a))
+# idn=ceil(i*ln/8)
+# print(idn*65536/1024)
+
+
+# from math import *
+# ln=23
+# for a in range(1,100000):
+#     i=ceil(log2(a))
+#     idn=ceil(i*ln/8)
+#     if (3222444*idn)>=(45*1024*1024):
+#         print(a)
+#         break

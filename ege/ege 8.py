@@ -409,3 +409,21 @@ from itertools import *
 #     k+=1
 #     if k%2==0 and s[0]=="Н" and s.count("Р")==2:
 #         print(k)
+
+# from itertools import *
+# k=0
+# for i in set(permutations("МАКАКА")):
+#     s="".join(i)
+#     if all(s[j] != s[j+1] for j in range(len(s)-1)):
+#         k+=1
+# print(k)
+
+
+# from itertools import *
+# k=0
+# for i in product("АВКМОС",repeat=6):
+#     s="".join(i)
+#     k+=1
+#     if k%2==0 and s[0] not in "АВК" and s.count("К")==2 and "КК" not in s:
+#         print(k)
+#         break

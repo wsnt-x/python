@@ -103,14 +103,25 @@
 
 
 # from itertools import *
-# def f(x,y,w,z):
-#     return w and ((x<=y)==(y<=z))
-# for a1,a2,a3,a4,a5,a6 in product([0,1], repeat=6):
-#     table = [(0,a1,a2,a3),
-#              (0,0,a4,0),
-#              (0,a5,a6,0),]
+# def f(a,b,c,d):
+#     return (a<=b) and (c<=d) or (not c)
+# table = [(1,0,1,0),
+#          (0,0,1,1),
+#          (0,1,1,1),
+#          (1,0,1,1)]
+# if len(set(table))==len(table):
+#     for p in permutations('abcd'):
+#         if [f(**dict(zip(p,r))) for r in table]==[0,0,0,0]:
+#             print(*p)
+
+# from itertools import *
+# def f(w,x,y,z):
+#     return not((x==(not z) and (y <= w))<=x)
+# for a1,a2,a3,a4,a5,a6,a7 in product([0,1],repeat=7):
+#     table = [(a1,0,a2,0),
+#              (a3,1,0,a4),
+#              (a5,a6,1,a7)]
 #     if len(set(table))==len(table):
-#         for p in permutations('xywz'):
+#         for p in permutations('wxyz'):
 #             if [f(**dict(zip(p,r))) for r in table]==[1,1,1]:
 #                 print(*p)
-#
