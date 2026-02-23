@@ -80,3 +80,11 @@
 #     if (3222444*idn)>=(45*1024*1024):
 #         print(a)
 #         break
+
+# from math import *
+# ln=16
+# a=62
+# i=ceil(log2(a))
+# dop=20
+# idn=ceil(i*ln/8)+dop
+# print(10240/idn)

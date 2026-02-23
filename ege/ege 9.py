@@ -147,3 +147,12 @@ from xml.dom.minidom import ProcessingInstruction
 #         if len(povt)==2 and len(nepovt)==2:
 #             if sum(nepovt)<=sum(povt):
 #                 print(sum(a))
+
+# k=0
+# with open("9123") as f:
+#     for i in f:
+#         a=sorted(list(map(int,i.split())))
+#         if len(set(a))==5:
+#             if 2*(a[0]+a[4])<=3*(a[1]+a[2]+a[3]):
+#                 k+=1
+# print(k)

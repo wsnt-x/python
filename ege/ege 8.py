@@ -427,3 +427,11 @@ from itertools import *
 #     if k%2==0 and s[0] not in "АВК" and s.count("К")==2 and "КК" not in s:
 #         print(k)
 #         break
+
+# from itertools import *
+# k=0
+# for i in product("ДЖОБС",repeat=6):
+#     s="".join(i)
+#     if s.count("Д")==1 and s.count("О")==1 and s.count("С")==1 and s.count("Ж")<=2:
+#         k+=1
+# print(k)
