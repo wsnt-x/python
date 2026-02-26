@@ -156,3 +156,17 @@ from xml.dom.minidom import ProcessingInstruction
 #             if 2*(a[0]+a[4])<=3*(a[1]+a[2]+a[3]):
 #                 k+=1
 # print(k)
+
+
+# k=0
+# with open("9123") as f:
+#     for i in f:
+#         a=sorted(list(map(int,i.split())))
+#         povt=[i for i in set(a) if a.count(i)>1]
+#         povt1 = [i for i in a if a.count(i) > 1]
+#         nepovt=[i for i in set(a) if a.count(i)==1]
+#         if len(nepovt)!=0 and len(povt)!=0:
+#             if max(a) not in povt:
+#                 if (sum(nepovt)/sum(povt1))>=3:
+#                     k+=1
+# print(k)

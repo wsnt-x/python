@@ -88,3 +88,12 @@
 # dop=20
 # idn=ceil(i*ln/8)+dop
 # print(10240/idn)
+
+from math import *
+ln=163
+for a in range(1,99999):
+    i=ceil(log2(a))
+    idn=ceil(i*ln/8)
+    if 32768*idn==3264*2**10:
+        print(a)
+        break
