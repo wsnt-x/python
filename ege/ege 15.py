@@ -223,3 +223,21 @@
 #             print(a)
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+
+
+# def f(x):
+#     return (a%5==0) and ((2020%a!=0) <=((x%1718==0)<=(2023%a==0)))
+# for a in range(1,10000):
+#     if all(f(x) for x in range(1,10000)):
+#         print(a)
+
+
+# def f(x):
+#     return ((((a+x+37+45)==180)and (a>0) and (x+45>0)) == (((a+x+90)==180) and (a>0) and (x>0))) and (not(a+23<120))
+# for a in range(1,1000,):
+#     if all(f(x) for x in range(1,1000)):
+#         print(a)
+#         break
+
+
+
