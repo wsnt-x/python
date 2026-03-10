@@ -238,6 +238,25 @@
 #     if all(f(x) for x in range(1,1000)):
 #         print(a)
 #         break
+#
+# b=list(range(25,41))
+# c=list(range(12,34))
+# a=[]
+# for x in range(200):
+#     if not(((x in b)<=(x in a))and((x not in c)or(x in a))):
+#         a.append(x)
+# print(a)
+# print(len(a))
+# print(a[-1]-a[0])
+
+# from math import *
+# p={1,3,4,9,11,13,15,17,19,21}
+# q={3,6,9,12,15,18,21,24,27,30}
+# a=set()
+# for x in range(1,100):
+#     if not (((x in p)<=(x in a))or((x not in a)<=(x not in q))):
+#         a.add(x)
+# print(prod(a))
 
 
 
