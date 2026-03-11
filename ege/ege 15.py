@@ -258,5 +258,44 @@
 #         a.add(x)
 # print(prod(a))
 
+# def f(x):
+#     return (x%128==0)<=((x%a!=0)<=(x%80!=0))
+# for a in range(1000,0,-1):
+#     if all(f(x) for x in range(1,1000)):
+#         print(a)
+#         break
+
+# p=list(range(25,65))
+# q=list(range(40,116))
+# a=[]
+# for x in range(1,1000):
+#     if not ((x in p)<=(((x in q)and(x not in a))<=(x not in p))):
+#         a.append(x)
+# print(a)
+# print(len(a))
+# print(a[-1]-a[0])
+
+# def f(x):
+#     return ((x&117!=0) and (x&91==0)) <= (x&a!=0)
+# for a in range(0,1000):
+#     if all(f(x) for x in range(0,1000)):
+#         print(a)
+#         break
 
 
+# p=list(range(52,106))
+# q=list(range(0,54))
+# a=[]
+# for x in range(1000):
+#     if not (((x not in p)and(x not in q)and(x not in a))<=(x**2>303601)):
+#         a.append(x)
+# print(a)
+# print(len(a))
+# print(a[-1]-a[0])
+
+# def f(x):
+#     return (a+2*x>400-a)and((a%100)+(120%a)>140)
+# for a in range(1,1000):
+#     if all(f(x) for x in range(1,1000)):
+#         print(a)
+#         break
