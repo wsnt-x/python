@@ -299,3 +299,12 @@
 #     if all(f(x) for x in range(1,1000)):
 #         print(a)
 #         break
+
+
+# !!!!!
+# def f(x, y):
+#     return (4*x + y > 115) or (x > 3*y) or (x + 4*y < a)
+# for a in range(1000, -1, -1):
+#     if any(not f(x, y) for x in range(1000) for y in range(1000)):
+#         print(a)
+#         break
