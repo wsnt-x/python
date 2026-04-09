@@ -1,5 +1,5 @@
 # count = 0
-# with open("9 1.txt") as f:
+# with open("9.txt") as f:
 #     for line in f:
 #         x1, y1, x2, y2, x3, y3 = map(int, line.split())
 #         if (x2 - x1) * (y3 - y1) == (y2 - y1) * (x3 - x1):
@@ -19,7 +19,7 @@
 # print((hex(a))[2])
 
 
-# with open("9 1.txt") as f:
+# with open("9.txt") as f:
 #     k = 0
 #     for line in f:
 #         a = list(map(int, line.split()))
@@ -58,7 +58,7 @@
 
 # Вариант № 5083.
 # k=0
-# with open ("9 1.txt", "r") as f:
+# with open ("9.txt", "r") as f:
 #     for line in f:
 #         a,b,c=sorted(map(int, line.split()))
 #         if a + b > c and c ** 2 > a ** 2 + b ** 2:

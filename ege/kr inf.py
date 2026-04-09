@@ -1,7 +1,7 @@
 #kr inf
 # #10
 # count = 0
-# with open("9 1.txt") as f:
+# with open("9.txt") as f:
 #     for line in f:
 #         a = list(map(int, line.split()))
 #         for x in a:
@@ -13,7 +13,7 @@
 # print(count)
 
 #11
-# with open("9 1.txt", "r") as f:
+# with open("9.txt", "r") as f:
 #     k=0
 #     for line in f:
 #         a=list(map(int,line.split()))
@@ -30,7 +30,7 @@
 
 
 #12
-# with open("9 1.txt", "r") as f:
+# with open("9.txt", "r") as f:
 #     for line in f:
 #         a=list(map(int,line.split()))
 #         two=0

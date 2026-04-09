@@ -100,7 +100,7 @@
 
 # 9
 # k=0
-# with open("9 1.txt") as f:
+# with open("9.txt") as f:
 #     for i in f:
 #         a=sorted(list(map(int,i.split())))
 #         if len(a)==len(set(a)):
@@ -202,7 +202,7 @@
 
 # 9
 # k=0
-# with open("9 1.txt") as f:
+# with open("9.txt") as f:
 #     for i in f:
 #         a=sorted(list(map(int,i.split())))
 #         povt=[i for i in set(a) if a.count(i)==2]

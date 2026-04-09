@@ -1,11 +1,11 @@
-# with open("9 1.txt","r") as f:
+# with open("9.txt","r") as f:
 #     k=0
 #     for line in f:
 #         a=sorted([int(x) for x in line.split()])
 #         if (a[0]+a[2])/2<=a[1]:
 #             k=k+1
 #             print(k)
-# with open("9 1.txt") as f:
+# with open("9.txt") as f:
 #     k = 0
 #     for line in f:
 #         a = sorted(map(int, line.split()))
@@ -19,7 +19,7 @@
 # print(k)
 from xml.dom.minidom import ProcessingInstruction
 
-# with open("9 1.txt","r") as f:
+# with open("9.txt","r") as f:
 #     k=0
 #     for line in f:
 #         a=sorted(map(int,line.split()))
@@ -37,7 +37,7 @@ from xml.dom.minidom import ProcessingInstruction
 #             k += 1
 # print(k)
 
-# with open("9 1.txt", "r") as f:
+# with open("9.txt", "r") as f:
 #     k=0
 #     for line in f:
 #         a=sorted(map(int, line.split()))
@@ -56,7 +56,7 @@ from xml.dom.minidom import ProcessingInstruction
 # При вычислении средних значений каждое число учитывается столько раз, сколько оно встречается в строке.
 # В ответе запишите число — количество строк, для которых выполнены эти условия.
 #
-# with open("9 1.txt") as f:
+# with open("9.txt") as f:
 #     k = 0
 #     for line in f:
 #         a = list(map(int, line.split()))
