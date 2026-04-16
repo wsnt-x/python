@@ -46,16 +46,14 @@
 # print(s)
 
 # 9
-# f=open('9.txt')
 # k=0
-# for s in f:
-#     a=[int(x) for x in s.split()]
-#     d2=[x for x in a if 10<=x<=99]
-#     m5=[x for x in a if x%5==0]
-#     u1=len(d2)==6
-#     u2=len(m5)==0
-#     if u1+u2==1:
-#         k+=1
+# with open("9.txt") as f:
+#     for i in f:
+#         a=list(map(int,i.split()))
+#         q=[x for x in a if x%5==0]
+#         w=[x for x in a if len(str(x))==2]
+#         if (len(q)==0) + (len(w)==6) == 1:
+#             k+=1
 # print(k)
 
 
