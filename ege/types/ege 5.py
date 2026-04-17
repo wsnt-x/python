@@ -108,3 +108,62 @@
 #         a.append(r)
 # print(max(a))
 
+
+
+# ИЗ 10 В 2
+# x10=55
+# x2=f"{x10:b}"
+
+
+# for n in range(1000,1,-1):
+#     n2=f"{n:b}"
+#     if n%2==0:
+#         n2="10"+n2
+#     else:
+#         n2="1"+n2+"01"
+#     r=int(n2,2)
+#     if r<30:
+#         print(n)
+#         break
+
+# ans=[]
+# for n in range(1,10000):
+#     n2=f"{n:b}"
+#     n2=n2+str(n2.count('1')%2)
+#     n2=n2+str(n2.count('1')%2)
+#     r=int(n2,2)
+#     if r>75:
+#             ans+=[r]
+# print(min(ans))
+
+# ИЗ 10 В 3
+# def per3(x):
+#     if x == 0:
+#         return "0"
+#     s = ""
+#     while x > 0:
+#         s = str(x % 3) + s
+#         x = x // 3
+#     return s
+
+# ИЗ 10 В ЛЮБУЮ ДО 10
+# def per(x, osn):
+#     if x == 0:
+#         return "0"
+#     s = ""
+#     while x > 0:
+#         s = str(x % osn) + s
+#         x //= osn
+#     return s
+
+
+# s[start:stop:step]
+# start — откуда начинаем (включительно)
+# stop — где заканчиваем (НЕ включая)
+# step — шаг
+# s[a:b]    # от a до b
+# s[:b]     # с начала
+# s[a:]     # до конца
+# s[:]      # копия
+# s[::-1]   # разворот
+# s[::2]    # каждый второй
