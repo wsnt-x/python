@@ -10,7 +10,7 @@ while i < len_data-1:
         cnt += 2
         i += 2
     else:
-        cnt =0
+        cnt = 0
         i += 1
     ans = max(ans, cnt)
 print(ans//2)
