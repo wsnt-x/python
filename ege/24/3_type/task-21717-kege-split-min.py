@@ -13,6 +13,7 @@ for i in range(1, len(data) - 129):
     #     else:
     #         ans = min(ans, len(line))
     #         break
+    # 1 способ не полностью проверяет все случаи
     for j in range(len(next_line)):
         if next_line[j] != "Q":
             ans = min(ans, len(line) + j + 1)
