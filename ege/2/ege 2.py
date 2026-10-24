@@ -31,8 +31,7 @@
 #     if len (table) != len (set (table)) :
 #         continue
 # for p in permutations ('xywz') :
-#     if [f1 (**dict (zip(p, r))) for r in table] \
-#     == [f2 (**dict (zip(p, r))) for r in table]:
+#     if [f1 (**dict (zip(p, r))) for r in table] == [f2 (**dict (zip(p, r))) for r in table]:
 #         print (*p)
 
 # from itertools import *
@@ -140,18 +139,3 @@
 #                 b.append(p)
 #                 print(b)
 # print(len(set(b)))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

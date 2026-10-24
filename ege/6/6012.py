@@ -23,7 +23,7 @@ for _ in 'ab':
     fd(8*r)
     rt(90)
 
-for x in range(0,6):
+for x in range(6):
     for y in range(8,14):
         teleport(x*r,y*r)
         dot(3,'red')
