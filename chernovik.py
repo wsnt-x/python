@@ -107,10 +107,10 @@
 
 # b=list(range(36,76))
 # c=list(range(60,111))
-# a=list()
+# a=list(range(1000))
 # for x in range(1000):
-#     if not ((x not in a) <= ((x in b)==(x in c))):
-#         a.append(x)
+#     if not((x not in a) <= ((x in b)==(x in c))):
+#         a.remove(x)
 # print(a)
 # print(len(a))
 # print(a[-1]-a[0])
@@ -118,13 +118,13 @@
 # k=0
 # sumi=0
 # with open('17.txt') as f:
-#     a=[int(i[:-1]) for i in f.readlines()]
+#     a=[int(i) for i in f]
 #     b=[]
 #     for i in range(len(a)-2):
 #         b.append([a[i],a[i+1],a[i+2]])
-#     maxi=max([x for x in a if x%100==25])
+#     maxi=max([x for x in a if abs(x)%100==25])
 #     for i in b:
-#         znach=[x for x in i if x in list(range(1000,10000))]
+#         znach=[x for x in i if abs(x) in range(1000,10000)]
 #         sumz=sum(i)
 #         if len(znach)<=2:
 #             if sumz <= maxi:
