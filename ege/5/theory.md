@@ -1,5 +1,3 @@
-Задание с косяком 6205
-
 # системы счисления
 
 N = 25
@@ -33,7 +31,6 @@ def convert(num, sys):
 
 # перевод в любую систему (2 <= sys <= 36)
 from string import printable as alph
-
 
 def convert2(num, sys):
     res = ''
