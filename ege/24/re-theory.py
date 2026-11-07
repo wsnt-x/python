@@ -1,7 +1,7 @@
 # основные методы модуля re
 # re - regular expressions (Регулярные выражения)
 
-from re import *
+# from re import *
 
 
 # Метасимволы
